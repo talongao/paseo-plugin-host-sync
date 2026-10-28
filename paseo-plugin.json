@@ -1,0 +1,16 @@
+{
+  "id": "host-sync",
+  "name": "Host Backup",
+  "description": "Encrypted backup of your Paseo host list to your own GitHub repository, with merge-on-restore across devices.",
+  "icon": "assets/icon.png",
+  "media": [],
+  "requirements": {
+    "paseo": ">=0.13.0"
+  },
+  "translations": {
+    "zh-CN": {
+      "name": "Host 备份",
+      "description": "把 Paseo 的 host 列表加密备份到你自己的 GitHub 仓库；换设备后可从任意一份快照合并恢复，自动过滤不属于本机的 localhost 连接。"
+    }
+  }
+}

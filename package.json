@@ -1,0 +1,41 @@
+{
+  "name": "@talongao/paseo-host-sync",
+  "version": "1.0.0",
+  "files": [
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "OVERVIEW.*.md",
+    "README.md",
+    "index.client.tsx",
+    "client/",
+    "shared/",
+    "assets/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.13.0",
+    "@tanstack/react-query": "^5.90.11",
+    "@types/node": "^22.20.5",
+    "@types/react": "~19.2.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  },
+  "description": "Encrypted backup and restore of your Paseo host list via your own GitHub repository.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talongao/paseo-plugin-host-sync.git"
+  },
+  "homepage": "https://github.com/talongao/paseo-plugin-host-sync",
+  "keywords": [
+    "paseo-plugin",
+    "backup",
+    "hosts",
+    "github",
+    "encrypted"
+  ]
+}
