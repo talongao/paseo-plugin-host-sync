@@ -3,7 +3,11 @@
   "name": "Host Backup",
   "description": "Encrypted backup of your Paseo host list to your own GitHub repository, with merge-on-restore across devices.",
   "icon": "assets/icon.png",
-  "media": [],
+  "media": [
+    "assets/backup.png",
+    "assets/restore.png",
+    "assets/settings.png"
+  ],
   "requirements": {
     "paseo": ">=0.13.0"
   },
